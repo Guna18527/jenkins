@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('git checkout') {
             steps {
-                git 'https://github.com/Guna18527/jenkins.git'
+                git 'git checkout'
             }
         }
         stage('maven') {
